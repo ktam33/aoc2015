@@ -58,3 +58,13 @@ while current != 'e':
     current = replace_longest(current)
     print(current)
 
+
+
+# how do we convert the input grammar to CNF
+# if we can do that then implement CYK
+
+# how do we even identify variables and terminals
+# anything on the left hand side of the rule is a variable
+# break down the right hand side into symbols. A symbol is always a uppercase letter potentially followed by a lowercase letter
+# if a symbol isn't a variable then it is a terminal
+# e is the start symbol
